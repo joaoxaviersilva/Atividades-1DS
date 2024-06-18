@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    font-style: normal;
+    font-size: medium;
+    color: white;
+    background-image: url(textura-de-parede-azul-grunge_1409-1440.avif);
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: tahoma;
+    border-color: rgb(0, 255, 0);
+    border-style: dotted;
+}
+
+main {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Segoe UI;
+    border-top: 100%;
+
+
+    font-size: large;
+    border-style: dashed;
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    font-family: Cambria;
+}
+
+p.a1 {
+    color: white;
+}
+
+p.a2 {
+    color: white;
+}
+
+p.a3 {
+    color: white;
+}
+
+p.a4 {
+    color: white;
+}
+
+}
