@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descobrindo Idade</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video id="video-background" autoplay loop muted playsinline>
+      <source src="universo.mp4" type="video/mp4" />
+    </video>
+    <div class="container">
+      <h1 class="titulo">Digite o ano do seu nascimento</h1>
+        <label for="bloco">Ano:</label>
+        <input type="number" id="bloco"/>
+        <button id="confirmar" onclick="idade()">Confirmar</button>
+      <h3 id="resultado">Esta é a sua idade:</h3>
+    </div>
+  </body>
+</html>
